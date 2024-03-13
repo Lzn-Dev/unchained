@@ -1,7 +1,7 @@
-from django.http import HttpResponse
+""" Module Views """
 from django.shortcuts import render
-from django.template import loader
 
 
 def home(request):
+    """Route 'Home'"""
     return render(request, "home.html")
